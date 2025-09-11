@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مدرسة أبولو - مستقبل طفلك يبدأ من هنا</title>
+    <meta name="description" content="مدرسة أبولو للتعليم الإلكتروني - تعليم تفاعلي مع معلمين معتمدين ومتابعة مستمرة لطفلك">
+    <meta name="keywords" content="تعليم إلكتروني, مدرسة أونلاين, تعليم أطفال, معلمين معتمدين">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="مدرسة أبولو - مستقبل طفلك يبدأ من هنا">
+    <meta property="og:description" content="تعليم تفاعلي بمناهج عالمية، بشهادة معتمدة دولياً، ومعلمون معتمدون بخبرة عالية.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://apollo-school.example.com">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    
+    <meta name="twitter:title" content="مدرسة أبولو">
+    <meta name="twitter:description" content="تعليم تفاعلي مع معلمين معتمدين">
+    
+    <!-- Canonical -->
+    <link rel="canonical" href="https://apollo-school.example.com">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="logo.jpg">
+    <link rel="manifest" href="manifest.webmanifest">
+    
+    <!-- Bootstrap 5.3.x RTL -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts - Cairo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Schema.org markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "EducationalOrganization",
+        "name": "مدرسة أبولو",
+        "description": "مدرسة للتعليم الإلكتروني التفاعلي",
+        "url": "https://apollo-school.example.com",
+        "logo": "https://apollo-school.example.com/assets/img/logo.png"
+    }
+    </script>
+</head>
+<body>
+    <!-- Skip to content for accessibility -->
+    <a href="#main-content" class="skip-link">الانتقال إلى المحتوى الرئيسي</a>
+    
+    <!-- Header -->
+    <header class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm" id="header">
+        <div class="container-fluid px-0">
+            <div class="navbar-container">
+                <a class="navbar-brand" href="index.html" aria-label="مدرسة أبولو">
+                    <img src="logo.jpg" alt="شعار مدرسة أبولو" loading="eager" width="240" height="80">
+                </a>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="تبديل التنقل">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto text-center py-3 py-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">الرئيسية</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#features">المميزات</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#curricula">المناهج</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#why-apollo">لماذا أبولو؟</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#groups">مجتمعنا</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#registration">تواصل معنا</a>
+                        </li>
+                        <!-- Add the watch samples button for mobile -->
+                        <li class="nav-item d-lg-none mb-2">
+                            <div class="d-flex justify-content-center">
+                                <div class="btn-group w-100">
+                                    <button type="button" class="btn btn-outline-secondary btn-sm active" data-lang="ar" dir="rtl">
+                                        <i class="bi bi-translate me-1"></i>العربية
+                                    </button>
+                                    <button type="button" class="btn btn-outline-secondary btn-sm" data-lang="en" dir="ltr">
+                                        English
+                                    </button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item d-lg-none text-center">
+                            <a href="#" class="btn btn-primary w-100" role="button">
+                                <i class="bi bi-play-circle me-2 "></i>شاهد نماذج
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="nav-cta d-none d-lg-flex align-items-center">
+                    <div class="btn-group me-3">
+                        <button type="button" class="btn btn-outline-secondary btn-sm active" data-lang="ar" dir="rtl">
+                            <i class="bi bi-translate me-1"></i>العربية
+                        </button>
+                        <button type="button" class="btn btn-outline-secondary btn-sm" data-lang="en" dir="ltr">
+                            English
+                        </button>
+                    </div>
+                    
+                    <a href="#" class="btn btn-primary btn-cta pulse-animation" role="button">
+                        <i class="bi bi-play-circle me-2"></i>شاهد نماذج من الحصص
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="hero-section py-5" id="hero">
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-lg-8">
+                        <h1 class="display-4 fw-bold text-white mb-4 fade-in">
+                            مستقبل أولادك<span class="highlight-text"> ما لازم يضيع بعد الحرب! </span>
+                        </h1>
+                        <p class="hero-text text-light mb-4 fade-in" id="typing-text">
+                            آلاف الأسر السودانية نزحوا بعد الصراع… ولسه قلقانين على تعليم أولادهم. مع مدرسة <span class="text-warning fw-bold">أبولو العالمية</span> تقدري تضمني لأولادك تعليم عالي الجودة من بيتك بمنهج عالمي ومعتمد.
+                        </p>
+                        <div class="d-flex flex-wrap justify-content-center gap-3 fade-in hero-buttons">
+                            <a href="#registration" class="btn btn-primary btn-lg pulse-animation">
+                                <i class="bi bi-person-plus me-2"></i>سجل الآن
+                            </a>
+                            <a href="videos.html" class="btn btn-outline-light btn-lg hover-scale">
+                                <i class="bi bi-play-circle me-2"></i> نماذج من الحصص
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+
+        <!-- Features Section -->
+        <section class="py-5 bg-light" id="features">
+            <div class="container">
+                <div class="text-center mb-4">
+                    <h2 class="display-5 fw-bold text-dark">لماذا نحن الأفضل؟</h2>
+                    <p class="lead text-muted">اكتشف مميزاتنا الفريدة</p>
+                </div>
+                
+                <div class="features-scroll-container">
+                    <div class="features-scroll">
+                        <!-- Feature 1 -->
+                        <div class="feature-card">
+                            <i class="bi bi-award"></i>
+                            <h4>معلمون معتمدون</h4>
+                            <p>فريق من المعلمين المؤهلين دولياً</p>
+                        </div>
+                        
+                        <!-- Feature 2 -->
+                        <div class="feature-card">
+                            <i class="bi bi-laptop"></i>
+                            <h4>منصة تفاعلية</h4>
+                            <p>تقنيات حديثة تجعل التعلم ممتعاً</p>
+                        </div>
+                        
+                        <!-- Feature 3 -->
+                        <div class="feature-card">
+                            <i class="bi bi-graph-up"></i>
+                            <h4>متابعة الأداء</h4>
+                            <p>تقارير دورية لمتابعة التقدم</p>
+                        </div>
+                        
+                        <!-- Feature 4 -->
+                        <div class="feature-card">
+                            <i class="bi bi-headset"></i>
+                            <h4>دعم فني</h4>
+                            <p>متاح على مدار الساعة</p>
+                        </div>
+                        
+                        <!-- Feature 5 -->
+                        <div class="feature-card">
+                            <i class="bi bi-puzzle"></i>
+                            <h4>أنشطة إثرائية</h4>
+                            <p>لتنمية مهارات طفلك</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="scroll-indicator text-center mt-3 d-md-none">
+                    <i class="bi bi-arrow-left-circle"></i> اسحب للتمرير <i class="bi bi-arrow-right-circle"></i>
+                </div>
+            </div>
+        </section>
+
+        <!-- Curricula Section -->
+        <section class="py-5" id="curricula">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="display-5 fw-bold text-dark">مناهجنا التعليمية</h2>
+                    <p class="lead text-muted">لأطفال السودان في المهجر</p>
+                </div>
+                
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <div class="text-center mb-5">
+                            <p class="lead">نوفّر لأبنائكم تعليماً متكاملاً يجمع بين جودة المناهج العالمية والحفاظ على الهوية السودانية:</p>
+                        </div>
+                        
+                        <div class="row g-4">
+                            <!-- منهج كامبردج -->
+                            <div class="col-md-3 col-6">
+                                <div class="curriculum-card h-100">
+                                    <i class="bi bi-globe"></i>
+                                    <h4>منهج كامبردج</h4>
+                                    <p>يفتح لأطفالكم أبواب التميز الأكاديمي العالمي</p>
+                                </div>
+                            </div>
+                            
+                            <!-- جولي فونيكس -->
+                            <div class="col-md-3 col-6">
+                                <div class="curriculum-card h-100">
+                                    <i class="bi bi-book"></i>
+                                    <h4>جولي فونيكس</h4>
+                                    <p>لتعلّم القراءة والكتابة بالإنجليزية بخطوات ممتعة وسهلة</p>
+                                </div>
+                            </div>
+                            
+                            <!-- طريقة نور البيان -->
+                            <div class="col-md-3 col-6">
+                                <div class="curriculum-card h-100">
+                                    <i class="bi bi-book-half"></i>
+                                    <h4>طريقة نور البيان</h4>
+                                    <p>لحفظ وتجويد القرآن بطريقة شيقة وقريبة من قلوب الأطفال</p>
+                                </div>
+                            </div>
+                            
+                            <!-- المنهج السوداني -->
+                            <div class="col-md-3 col-6">
+                                <div class="curriculum-card h-100">
+                                    <i class="bi bi-mortarboard"></i>
+                                    <h4>المنهج السوداني</h4>
+                                    <p>حفاظاً على هويتهم وانتمائهم لجذورهم</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-5 pt-4 border-top">
+                            <h4 class="text-center mb-4">ولأن التعليم رحلة مشتركة مع الأسرة</h4>
+                            
+                            <div class="row g-4">
+                                <!-- أخصائية اجتماعية -->
+                                <div class="col-md-6">
+                                    <div class="support-card">
+                                        <i class="bi bi-people"></i>
+                                        <div>
+                                            <h5>أخصائية اجتماعية</h5>
+                                            <p class="mb-0">تتابع الأمهات وتدعم استقرار الطفل النفسي</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- أخصائية تغذية -->
+                                <div class="col-md-6">
+                                    <div class="support-card">
+                                        <i class="bi bi-nut"></i>
+                                        <div>
+                                            <h5>أخصائية تغذية</h5>
+                                            <p class="mb-0">تساعدكم في بناء عادات صحية تدعم تركيز ونمو الأبناء</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="text-center mt-5">
+                                <p class="lead fw-bold">
+                                    مع أبولو، يطمئن قلبك على مستقبل طفلك... تعليم بجودة عالية، وهوية راسخة، ورعاية شاملة.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Apollo Section -->
+        <section class="py-5 bg-light" id="why-apollo">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="display-5 fw-bold text-dark">لماذا أبولو؟</h2>
+                    <p class="lead text-muted">مقارنة بين التعليم التقليدي والتعليم الإلكتروني مع أبولو</p>
+                </div>
+                <div class="table-responsive">
+                    <table class="table table-bordered comparison-table">
+                        <thead class="table-primary">
+                            <tr>
+                                <th scope="col">المعيار</th>
+                                <th scope="col">التعليم التقليدي</th>
+                                <th scope="col">أبولو للتعليم الإلكتروني</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">مرونة الوقت</th>
+                                <td><i class="bi bi-dash-circle text-muted"></i> أوقات ثابتة</td>
+                                <td><i class="bi bi-check-circle text-success"></i> مرونة كاملة</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">متابعة الأداء</th>
+                                <td><i class="bi bi-dash-circle text-muted"></i> تقارير فصلية</td>
+                                <td><i class="bi bi-star-fill text-warning"></i> متابعة يومية</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">التكلفة</th>
+                                <td><i class="bi bi-dash-circle text-muted"></i> تكلفة عالية</td>
+                                <td><i class="bi bi-check-circle text-success"></i> تكلفة مناسبة</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">تنوع الوسائط</th>
+                                <td><i class="bi bi-dash-circle text-muted"></i> محدود</td>
+                                <td><i class="bi bi-star-fill text-warning"></i> متنوع وتفاعلي</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">الدعم الفردي</th>
+                                <td><i class="bi bi-dash-circle text-muted"></i> محدود</td>
+                                <td><i class="bi bi-check-circle text-success"></i> دعم شخصي</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+      
+
+        <!-- Important Links Section -->
+        <section class="py-5 comm text-white" id="groups">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="display-5 fw-bold">انضم إلى مجتمعنا</h2>
+                    <p class="lead">مجموعات واتساب مجانية للتعلم والتفاعل</p>
+                </div>
+                <div class="row g-4 justify-content-center">
+                    <div class="col-md-6">
+                        <div class="card bg-white text-dark h-100">
+                            <div class="card-body text-center p-4">
+                                <i class="bi bi-people-fill card-icon-warning mb-3" ></i>
+                                <h3 class="card-title ">نادي أصدقاء أبولو</h3>
+                                <p class="card-text">مجموعة مجانية لتعلم الإنجليزية والتفاعل مع الطلاب</p>
+                                <a href="https://chat.whatsapp.com/GuP5INBNwJTHfOPnTz8tTs" class="btn bg-dark text-white" target="_blank">
+                                    <i class="bi bi-whatsapp me-2"></i>انضم الآن
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card bg-white text-dark h-100">
+                            <div class="card-body text-center p-4">
+                                <i class="bi bi-arrow-left-right card-icon-warning mb-3"></i>
+                                <h3 class="card-title">برنامج STEAM للمعالجات </h3>
+                                <p class="card-text"  > برنامج مخصص لدعم  طلاب المدارس الدولية الذين انتقلو  للقسم الدولي بين عامي 2024-2022(من قريد 1 الى قريد 2 ) من خلال  منهجية تأسيسية قوية ومباشرة لمساعدتهم على سد الفجوات التعليمية والانطلاق نحو النجاح </p>
+                                <a href="https://wa.me/201226092950" class="btn btn-dark text-white" target="_blank">
+                                    <i class="bi bi-whatsapp me-2"></i>انضم الآن
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Registration Form Section -->
+        <section class="py-5" id="registration">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="card shadow-lg border-0">
+                            <div class="card-body p-5">
+                                <div class="text-center mb-4">
+                                    <h2 class="display-6 fw-bold ">سجل الآن</h2>
+                                    <p class="lead text-muted">ابدأ رحلة التعلم مع أبولو</p>
+                                </div>
+                                <form action="https://script.google.com/macros/s/AKfycbz5qr4ANLABlvJvbk2JnGBqS4r5zim4n_HGHn7mZlx3MLP_eJr_pKBYkIVOST25HHnB/exec"   method="POST" id="registrationForm" novalidate >
+                                    <!-- Honeypot for security -->
+                                    <input type="text" name="website" style="display: none;" tabindex="-1" autocomplete="off">
+                                    
+                                    <div class="row g-3">
+                                        <div class="col-md-6">
+                                            <label for="studentName" class="form-label">اسم الطالب الكامل *</label>
+                                            <input type="text" class="form-control" id="studentName" name="studentName" required>
+                                            <div class="invalid-feedback">يرجى إدخال اسم الطالب</div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="country" class="form-label">الدولة *</label>
+                                            <select class="form-select" id="country" name="country" required>
+                                                <option value="">اختر الدولة</option>
+                                                <option value="egypt">🇪🇬 مصر</option>
+                                                <option value="sudan">🇸🇩 السودان</option>
+                                                <option value="saudi">🇸🇦 السعودية</option>
+                                                <option value="uae">🇦🇪 الإمارات</option>
+                                                <option value="qatar">🇶🇦 قطر</option>
+                                                <option value="kuwait">🇰🇼 الكويت</option>
+                                            </select>
+                                            <div class="invalid-feedback">يرجى اختيار الدولة</div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="grade" class="form-label">الصف الدراسي *</label>
+                                            <select class="form-select" id="grade" name="grade" required>
+                                                <option value="">اختر الصف</option>
+                                                <option value="kg">رياض الأطفال</option>
+                                                <option value="grade1">الصف الأول</option>
+                                                <option value="grade2">الصف الثاني</option>
+                                                <option value="grade3">الصف الثالث</option>
+                                                <option value="grade4">الصف الرابع</option>
+                                                <option value="grade5">الصف الخامس</option>
+                                            </select>
+                                            <div class="invalid-feedback">يرجى اختيار الصف</div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="parentName" class="form-label">اسم ولي الأمر</label>
+                                            <input type="text" class="form-control" id="parentName" name="guardian">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="email" class="form-label">البريد الإلكتروني</label>
+                                            <input type="email" class="form-control" id="email" name="email">
+                                            <div class="invalid-feedback">يرجى إدخال بريد إلكتروني صحيح</div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="whatsapp" class="form-label">رقم الواتساب</label>
+                                            <input type="tel" class="form-control" id="whatsapp" name="whatsapp">
+                                        </div>
+                                        
+                                     
+                                        <div class="col-12">
+                                            <button type="submit" class="btn btn-primary btn-lg w-100">
+                                                <i class="bi bi-send me-2"></i>إرسال التسجيل
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white py-5">
+        <div class="container">
+            <div class="row g-4">
+                <!-- About Column -->
+                <div class="col-lg-6 col-md-6">
+                    <div class="footer-about">
+                        <h2 class="mb-3" style="color: #f59e0b;">أبولو</h2>
+                        <p class="mb-3 text-white-50">مدرسة أبولو للتعليم الإلكتروني تقدم تجربة تعليمية متكاملة<br class="d-none d-md-inline">تجمع بين الجودة والمرونة لضمان مستقبل أفضل لأطفالنا</p>
+                        <a href="https://www.facebook.com/share/177FDnUXE8/" class="btn btn-cta" aria-label="تابعنا على فيسبوك">
+                            <i class="bi bi-facebook me-2"></i>تابعنا على فيسبوك
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">روابط سريعة</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="index.html" class="text-white-50 text-decoration-none hover-text-primary">الرئيسية</a></li>
+                        <li class="mb-2"><a href="#features" class="text-white-50 text-decoration-none hover-text-primary">المميزات</a></li>
+                        <li class="mb-2"><a href="#curricula" class="text-white-50 text-decoration-none hover-text-primary">المناهج</a></li>
+                        <li class="mb-2"><a href="#why-apollo" class="text-white-50 text-decoration-none hover-text-primary">لماذا أبولو؟</a></li>
+                        <li class="mb-2"><a href="#groups" class="text-white-50 text-decoration-none hover-text-primary">مجتمعنا</a></li>
+                        <li class="mb-3"><a href="#registration" class="text-white-50 text-decoration-none hover-text-primary">اتصل بنا</a></li>
+                    
+                    </ul>
+                </div>
+
+              <!-- Educational Platform Column -->
+              <div class="col-lg-3 col-md-6">
+                <h5 class="text-white mb-4">المنصة التعليمية</h5>
+                <p class="text-white-50 mb-3">انضم إلى منصتنا التعليمية التفاعلية واحصل على تجربة تعلم فريدة</p>
+                <a href="https://apolo.ig.eduversity.sd" target="_blank" rel="noopener noreferrer" class="btn btn-primary w-100">
+                    <i class="bi bi-box-arrow-up-right me-2"></i>عرض المنصة
+                </a>
+            </div>
+
+              
+
+            </div>
+            <hr class="my-4 bg-secondary">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="mb-0">مدرسة أبولو جميع الحقوق محفوظة</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modals -->
+    <!-- Curriculum Modal -->
+    <div class="modal fade" id="curriculumModal" tabindex="-1" aria-labelledby="curriculumModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="curriculumModalLabel">تفاصيل المنهج</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="إغلاق"></button>
+                </div>
+                <div class="modal-body" id="curriculumModalBody">
+                    <!-- Content will be loaded dynamically -->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">إغلاق</button>
+                    <button type="button" class="btn btn-primary" onclick="window.print()">طباعة</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Program Modal -->
+    <div class="modal fade" id="programModal" tabindex="-1" aria-labelledby="programModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="programModalLabel">تفاصيل البرنامج</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="إغلاق"></button>
+                </div>
+                <div class="modal-body" id="programModalBody">
+                    <!-- Content will be loaded dynamically -->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">إغلاق</button>
+                    <button type="button" class="btn btn-primary" onclick="window.print()">طباعة</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- WhatsApp Modal -->
+    <div class="modal fade" id="whatsappModal" tabindex="-1" aria-labelledby="whatsappModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="whatsappModalLabel">انضم إلى المجموعة</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="إغلاق"></button>
+                </div>
+                <div class="modal-body" id="whatsappModalBody">
+                    <!-- Content will be loaded dynamically -->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">إلغاء</button>
+                    <a href="#" class="btn btn-success" id="whatsappJoinBtn">
+                        <i class="bi bi-whatsapp me-2"></i>انضم الآن
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Privacy Policy Modal -->
+    <div class="modal fade" id="privacyModal" tabindex="-1" aria-labelledby="privacyModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="privacyModalLabel">سياسة الخصوصية</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="إغلاق"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>جمع المعلومات</h6>
+                    <p>نحن نجمع المعلومات التي تقدمها لنا مباشرة عند التسجيل في خدماتنا.</p>
+                    
+                    <h6>استخدام المعلومات</h6>
+                    <p>نستخدم المعلومات المجمعة لتقديم وتحسين خدماتنا التعليمية.</p>
+                    
+                    <h6>حماية المعلومات</h6>
+                    <p>نحن ملتزمون بحماية معلوماتك الشخصية وعدم مشاركتها مع أطراف ثالثة.</p>
+                    
+                    <h6>الاتصال بنا</h6>
+                    <p>إذا كان لديك أي أسئلة حول سياسة الخصوصية، يرجى الاتصال بنا.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">فهمت</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Terms Modal -->
+    <div class="modal fade" id="termsModal" tabindex="-1" aria-labelledby="termsModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="termsModalLabel">الشروط والأحكام</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="إغلاق"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>قبول الشروط</h6>
+                    <p>باستخدام خدماتنا، فإنك توافق على هذه الشروط والأحكام.</p>
+                    
+                    <h6>الخدمات</h6>
+                    <p>نحن نقدم خدمات تعليمية إلكترونية للطلاب في مختلف المراحل.</p>
+                    
+                    <h6>المسؤوليات</h6>
+                    <p>يتحمل المستخدم مسؤولية استخدام الخدمات بطريقة مناسبة.</p>
+                    
+                    <h6>التعديلات</h6>
+                    <p>نحتفظ بالحق في تعديل هذه الشروط في أي وقت.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">فهمت</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Container -->
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <div id="successToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header bg-success text-white">
+                <i class="bi bi-check-circle me-2"></i>
+                <strong class="me-auto">نجح التسجيل</strong>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="toast" aria-label="إغلاق"></button>
+            </div>
+            <div class="toast-body">
+                تم إرسال طلب التسجيل بنجاح. سنتواصل معك قريباً.
+            </div>
+        </div>
+        
+        <div id="errorToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header bg-danger text-white">
+                <i class="bi bi-exclamation-triangle me-2"></i>
+                <strong class="me-auto">خطأ</strong>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="toast" aria-label="إغلاق"></button>
+            </div>
+            <div class="toast-body">
+                حدث خطأ أثناء إرسال الطلب. يرجى المحاولة مرة أخرى.
+            </div>
+        </div>
+    </div>
+
+    <!-- Floating Register Button -->
+    <div class="floating-register">
+        <a href="#registration" class="btn btn-primary btn-lg rounded-circle shadow-lg">
+            <i class="bi bi-person-plus"></i>
+        </a>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- AOS Animation JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Initialize AOS -->
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true,
+            mirror: false
+        });
+    </script>
+    
+    <!-- Typing Animation Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const textElement = document.getElementById('typing-text');
+            const html = textElement.innerHTML; // Get the HTML content
+            textElement.textContent = ''; // Clear the content
+            
+            // Create a temporary element to hold the HTML
+            const tempDiv = document.createElement('div');
+            tempDiv.innerHTML = html;
+            
+            // Get all text nodes (this will help us type out the text while preserving HTML structure)
+            const textNodes = [];
+            const walker = document.createTreeWalker(
+                tempDiv,
+                NodeFilter.SHOW_TEXT,
+                null,
+                false
+            );
+            
+            let node;
+            while (node = walker.nextNode()) {
+                textNodes.push(node);
+            }
+            
+            // Clear the original element
+            textElement.innerHTML = '';
+            
+            // Clone the structure without text content
+            const structure = tempDiv.cloneNode(true);
+            
+            // Function to clear text content from a node
+            function clearTextNodes(element) {
+                const walker = document.createTreeWalker(
+                    element,
+                    NodeFilter.SHOW_TEXT,
+                    null,
+                    false
+                );
+                
+                let node;
+                const nodes = [];
+                while (node = walker.nextNode()) {
+                    nodes.push(node);
+                }
+                
+                nodes.forEach(node => {
+                    node.nodeValue = '';
+                });
+                
+                return nodes;
+            }
+            
+            // Clear all text nodes in the structure
+            const emptyTextNodes = clearTextNodes(structure);
+            
+            // Append the empty structure to the original element
+            textElement.appendChild(structure);
+            
+            // Now type out the text
+            let currentNodeIndex = 0;
+            let currentTextIndex = 0;
+            const speed = 30; // Typing speed in milliseconds
+            
+            function typeWriter() {
+                if (currentNodeIndex < emptyTextNodes.length) {
+                    const currentNode = emptyTextNodes[currentNodeIndex];
+                    const fullText = textNodes[currentNodeIndex].nodeValue;
+                    
+                    if (currentTextIndex < fullText.length) {
+                        // Add next character
+                        currentNode.nodeValue = fullText.substring(0, currentTextIndex + 1);
+                        currentTextIndex++;
+                        setTimeout(typeWriter, speed);
+                    } else {
+                        // Move to next text node
+                        currentNodeIndex++;
+                        currentTextIndex = 0;
+                        setTimeout(typeWriter, speed);
+                    }
+                }
+            }
+            
+            // Start the animation with a small delay
+            setTimeout(typeWriter, 1000);
+        });
+    </script>
+    
+    <!-- Custom JS -->
+    <script src="main.js"></script>
+    
+    <!-- Initialize Modals after DOM is fully loaded -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            if (typeof initializeModals === 'function') {
+                initializeModals();
+            }
+        });
+    </script>
+    
+    <!-- Language Switcher Functionality -->
+    <script>
+        // Language Switcher Functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const languageButtons = document.querySelectorAll('[data-lang]');
+            
+            languageButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const lang = this.getAttribute('data-lang');
+                    const dir = this.getAttribute('dir');
+                    
+                    // Remove active class from all buttons
+                    languageButtons.forEach(btn => {
+                        btn.classList.remove('active');
+                    });
+                    
+                    // Add active class to clicked button
+                    this.classList.add('active');
+                    
+                    // Here you would typically change the language
+                    // For now, we'll just update the button states
+                });
+            });
+        });
+    </script>
+</body>
+</html>
